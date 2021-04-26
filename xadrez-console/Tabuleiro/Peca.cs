@@ -14,5 +14,10 @@
             Tab = tab;
             QtdeMovimentos = 0;
         }
+
+        public void IncrementarQtdeMovimentos()
+        {
+            QtdeMovimentos++;
+        }
     }
 }
